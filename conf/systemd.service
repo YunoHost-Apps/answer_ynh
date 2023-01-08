@@ -1,0 +1,13 @@
+[Unit]
+Description=Answer: Knowledge-based software
+After=network.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__/
+ExecStart=__FINALPATH__/answer run -C __DATADIR__
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/answerdev/answer/releases/download/v1.0.2/answer_1.0.2_linux_armv7.tar.gz
+SOURCE_SUM=60ff657635f31f172ff1e229a7da0cad04f54ff88bc9fdeba2a4f6aa457a6ea1
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=
