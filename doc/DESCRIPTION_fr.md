@@ -1,0 +1,1 @@
+Un logiciel open-source pour les communautés basées sur la connaissance. Vous pouvez l'utiliser pour créer rapidement votre communauté de questions-réponses pour le support technique des produits, le support client, la communication avec les utilisateurs.

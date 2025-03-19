@@ -1,0 +1,72 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "answer"
+name = "Answer"
+description.en = "Knowledge-based community software"
+description.fr = "Logiciel communautaire basé sur la connaissance"
+
+version = "1.4.2~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "Apache-2.0"
+website = "https://github.com/apache/answer"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://github.com/apache/answer"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    amd64.url = "https://github.com/apache/answer/releases/download/v1.4.2/apache-answer-1.4.2-bin-linux-amd64.tar.gz"
+    amd64.sha256 = "af8be8615a2483312ffd3b17f6e3dfb8cf37bdd5fc62d9e5bb8b98b4b417f686"
+    arm64.url = "https://github.com/apache/answer/releases/download/v1.4.2/apache-answer-1.4.2-bin-linux-arm64.tar.gz"
+    arm64.sha256 = "14e616e1f45a842c13463beb1de07b10ba788f1310ef7c4793ba3efeed5d1817"
+    
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+    subdirs = [ "cache", "conf", "sqlite3", "i18n" ]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "mariadb-server, sqlite3"
+
+    [resources.database]
+    type = "mysql"
