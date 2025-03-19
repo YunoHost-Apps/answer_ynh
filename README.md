@@ -21,7 +21,7 @@ It shall NOT be edited by hand.
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**Shipped version:** 1.0.2~ynh1
+**Shipped version:** 1.4.2~ynh1
 
 **Demo:** <https://demo.example.com>
 
@@ -31,10 +31,10 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Documentation and resources
 
-- Official app website: <https://answer.dev/>
+- Official app website: <https://github.com/apache/answer>
 - Official user documentation: <https://yunohost.org/apps>
-- Official admin documentation: <https://answer.dev/docs>
-- Upstream app code repository: <https://github.com/answerdev/answer>
+- Official admin documentation: <https://yunohost.org/packaging_apps>
+- Upstream app code repository: <https://github.com/apache/answer>
 - YunoHost Store: <https://apps.yunohost.org/app/answer>
 - Report a bug: <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

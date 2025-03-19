@@ -21,7 +21,7 @@ Ini TIDAK boleh diedit dengan tangan.
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**Versi terkirim:** 1.0.2~ynh1
+**Versi terkirim:** 1.4.2~ynh1
 
 **Demo:** <https://demo.example.com>
 
@@ -31,10 +31,10 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://answer.dev/>
+- Website aplikasi resmi: <https://github.com/apache/answer>
 - Dokumentasi pengguna resmi: <https://yunohost.org/apps>
-- Dokumentasi admin resmi: <https://answer.dev/docs>
-- Depot kode aplikasi hulu: <https://github.com/answerdev/answer>
+- Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
+- Depot kode aplikasi hulu: <https://github.com/apache/answer>
 - Gudang YunoHost: <https://apps.yunohost.org/app/answer>
 - Laporkan bug: <https://github.com/YunoHost-Apps/answer_ynh/issues>
 
