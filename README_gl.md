@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Answer para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/answer)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Instalar Answer con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 

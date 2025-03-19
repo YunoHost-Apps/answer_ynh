@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Answer YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/answer)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Instalatu Answer YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 

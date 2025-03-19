@@ -3,9 +3,11 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Answer
+# YunoHost 上的 Answer
 
-[![集成程度](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![工作状态](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![工作状态](https://apps.yunohost.org/badge/state/answer)
+![维护状态](https://apps.yunohost.org/badge/maintained/answer)
 
 [![使用 YunoHost 安装 Answer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
