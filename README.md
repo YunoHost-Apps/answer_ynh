@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Answer for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Working status](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Working status](https://apps.yunohost.org/badge/state/answer)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Install Answer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
