@@ -56,7 +56,7 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
-    subdirs = [ "cache", "conf", "sqlite3", "i18n" ]
+    subdirs = [ "cache", "conf", "i18n" ]
 
     [resources.permissions]
     main.url = "/"
@@ -64,7 +64,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "mariadb-server, sqlite3"
+    packages = "postgresql"
 
     [resources.database]
-    type = "mysql"
+    type = "postgresql"
