@@ -21,6 +21,8 @@ ynh_script_progression "Setting up source files..."
 # Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
 
+mkdir "$install_dir/data"
+
 chmod +x "$install_dir/answer"
 
 #=================================================
@@ -28,7 +30,7 @@ chmod +x "$install_dir/answer"
 #=================================================
 ynh_script_progression "Adding $app's configuration files..."
 
-ynh_config_add --template=".env" --destination="$install_dir/.env"
+ynh_config_add --template="config.yaml" --destination="$install_dir/data/conf/config.yaml"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -48,9 +50,9 @@ yunohost service add "$app" --description="Knowledge-based community software" -
 #=================================================
 ynh_script_progression "Installing $app..."
 
-pushd "$install_dir"
-	ynh_hide_warnings ynh_exec_as_app INSTALL_PORT=80 ./answer init --data-path $data_dir/
-popd
+#pushd "$install_dir"
+#	ynh_hide_warnings ynh_exec_as_app INSTALL_PORT=80 ./answer init --data-path $data_dir/
+#popd
 
 #=================================================
 # START SYSTEMD SERVICE
