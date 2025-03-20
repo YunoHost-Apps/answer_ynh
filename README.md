@@ -23,8 +23,6 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 **Shipped version:** 1.4.2~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Screenshots
 
 ![Screenshot of Answer](./doc/screenshots/screenshot.png)

@@ -23,8 +23,6 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 **分发版本：** 1.4.2~ynh1
 
-**演示：** <https://demo.example.com>
-
 ## 截图
 
 ![Answer 的截图](./doc/screenshots/screenshot.png)
