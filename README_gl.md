@@ -23,8 +23,6 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 **Versión proporcionada:** 1.4.2~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Capturas de pantalla
 
 ![Captura de pantalla de Answer](./doc/screenshots/screenshot.png)

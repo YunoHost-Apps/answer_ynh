@@ -23,8 +23,6 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 **Versi terkirim:** 1.4.2~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Tangkapan Layar
 
 ![Tangkapan Layar pada Answer](./doc/screenshots/screenshot.png)

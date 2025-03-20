@@ -22,8 +22,6 @@ Un logiciel open-source pour les communautés basées sur la connaissance. Vous 
 
 **Version incluse :** 1.4.2~ynh1
 
-**Démo :** <https://demo.example.com>
-
 ## Captures d’écran
 
 ![Capture d’écran de Answer](./doc/screenshots/screenshot.png)

@@ -23,8 +23,6 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 **Paketatutako bertsioa:** 1.4.2~ynh1
 
-**Demoa:** <https://demo.example.com>
-
 ## Pantaila-argazkiak
 
 ![Answer(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
