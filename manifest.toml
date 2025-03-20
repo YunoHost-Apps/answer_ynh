@@ -13,10 +13,9 @@ maintainers = []
 
 [upstream]
 license = "Apache-2.0"
-website = "https://github.com/apache/answer"
+website = "https://answer.apache.org/"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://answer.apache.org/docs"
 code = "https://github.com/apache/answer"
 
 [integration]
