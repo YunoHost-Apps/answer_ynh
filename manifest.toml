@@ -14,7 +14,6 @@ maintainers = []
 [upstream]
 license = "Apache-2.0"
 website = "https://answer.apache.org/"
-demo = "https://demo.example.com"
 admindoc = "https://answer.apache.org/docs"
 code = "https://github.com/apache/answer"
 
