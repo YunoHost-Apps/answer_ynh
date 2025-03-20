@@ -23,9 +23,9 @@ ynh_script_progression "Restoring the data directory..."
 ynh_restore "$data_dir"
 
 #=================================================
-# RESTORE THE MYSQL DATABASE
+# RESTORE THE DATABASE
 #=================================================
-ynh_script_progression "Restoring the MySQL database..."
+ynh_script_progression "Restoring the PostgreSQL database..."
 
 ynh_psql_db_shell < ./db.sql
 
