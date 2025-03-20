@@ -31,9 +31,8 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Documentation and resources
 
-- Official app website: <https://github.com/apache/answer>
-- Official user documentation: <https://yunohost.org/apps>
-- Official admin documentation: <https://yunohost.org/packaging_apps>
+- Official app website: <https://answer.apache.org/>
+- Official admin documentation: <https://answer.apache.org/docs>
 - Upstream app code repository: <https://github.com/apache/answer>
 - YunoHost Store: <https://apps.yunohost.org/app/answer>
 - Report a bug: <https://github.com/YunoHost-Apps/answer_ynh/issues>

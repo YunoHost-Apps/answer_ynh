@@ -31,9 +31,8 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://github.com/apache/answer>
-- Dokumentasi pengguna resmi: <https://yunohost.org/apps>
-- Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
+- Website aplikasi resmi: <https://answer.apache.org/>
+- Dokumentasi admin resmi: <https://answer.apache.org/docs>
 - Depot kode aplikasi hulu: <https://github.com/apache/answer>
 - Gudang YunoHost: <https://apps.yunohost.org/app/answer>
 - Laporkan bug: <https://github.com/YunoHost-Apps/answer_ynh/issues>

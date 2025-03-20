@@ -30,9 +30,8 @@ Un logiciel open-source pour les communautés basées sur la connaissance. Vous 
 
 ## Documentations et ressources
 
-- Site officiel de l’app : <https://github.com/apache/answer>
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
+- Site officiel de l’app : <https://answer.apache.org/>
+- Documentation officielle de l’admin : <https://answer.apache.org/docs>
 - Dépôt de code officiel de l’app : <https://github.com/apache/answer>
 - YunoHost Store : <https://apps.yunohost.org/app/answer>
 - Signaler un bug : <https://github.com/YunoHost-Apps/answer_ynh/issues>
