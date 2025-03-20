@@ -43,7 +43,7 @@ yunohost service add "$app" --description="Knowledge-based community software" -
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
-	INSTALL_PORT=$port ./answer init -C $data_dir/
+	./answer init -C $data_dir/
 popd
 
 #=================================================
