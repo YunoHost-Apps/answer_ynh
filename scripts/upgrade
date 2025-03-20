@@ -40,6 +40,15 @@ ynh_config_add_systemd
 yunohost service add "$app" --description="Knowledge-based community software" --log="/var/log/$app/$app.log"
 
 #=================================================
+# INSTALL ANSWER
+#=================================================
+ynh_script_progression "Installing $app..."
+
+pushd "$install_dir"
+	./answer upgrade -C $data_dir/
+popd
+
+#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
