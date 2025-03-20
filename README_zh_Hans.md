@@ -31,9 +31,8 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## 文档与资源
 
-- 官方应用网站： <https://github.com/apache/answer>
-- 官方用户文档： <https://yunohost.org/apps>
-- 官方管理文档： <https://yunohost.org/packaging_apps>
+- 官方应用网站： <https://answer.apache.org/>
+- 官方管理文档： <https://answer.apache.org/docs>
 - 上游应用代码库： <https://github.com/apache/answer>
 - YunoHost 商店： <https://apps.yunohost.org/app/answer>
 - 报告 bug： <https://github.com/YunoHost-Apps/answer_ynh/issues>
