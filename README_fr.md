@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Answer pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/answer)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Installer Answer avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
@@ -16,12 +18,9 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
+Un logiciel open-source pour les communautés basées sur la connaissance. Vous pouvez l'utiliser pour créer rapidement votre communauté de questions-réponses pour le support technique des produits, le support client, la communication avec les utilisateurs.
 
-
-**Version incluse :** 1.0.2~ynh1
-
-**Démo :** <https://demo.example.com>
+**Version incluse :** 1.4.2~ynh1
 
 ## Captures d’écran
 
@@ -29,10 +28,9 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Documentations et ressources
 
-- Site officiel de l’app : <https://answer.dev/>
-- Documentation officielle utilisateur : <https://yunohost.org/apps>
-- Documentation officielle de l’admin : <https://answer.dev/docs>
-- Dépôt de code officiel de l’app : <https://github.com/answerdev/answer>
+- Site officiel de l’app : <https://answer.apache.org/>
+- Documentation officielle de l’admin : <https://answer.apache.org/docs>
+- Dépôt de code officiel de l’app : <https://github.com/apache/answer>
 - YunoHost Store : <https://apps.yunohost.org/app/answer>
 - Signaler un bug : <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

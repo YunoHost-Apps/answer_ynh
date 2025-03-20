@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Answer for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Working status](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Working status](https://apps.yunohost.org/badge/state/answer)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Install Answer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
@@ -19,9 +21,7 @@ It shall NOT be edited by hand.
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**Shipped version:** 1.0.2~ynh1
-
-**Demo:** <https://demo.example.com>
+**Shipped version:** 1.4.2~ynh1
 
 ## Screenshots
 
@@ -29,10 +29,9 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Documentation and resources
 
-- Official app website: <https://answer.dev/>
-- Official user documentation: <https://yunohost.org/apps>
-- Official admin documentation: <https://answer.dev/docs>
-- Upstream app code repository: <https://github.com/answerdev/answer>
+- Official app website: <https://answer.apache.org/>
+- Official admin documentation: <https://answer.apache.org/docs>
+- Upstream app code repository: <https://github.com/apache/answer>
 - YunoHost Store: <https://apps.yunohost.org/app/answer>
 - Report a bug: <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

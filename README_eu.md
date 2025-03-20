@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Answer YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/answer)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Instalatu Answer YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
@@ -19,9 +21,7 @@ EZ editatu eskuz.
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**Paketatutako bertsioa:** 1.0.2~ynh1
-
-**Demoa:** <https://demo.example.com>
+**Paketatutako bertsioa:** 1.4.2~ynh1
 
 ## Pantaila-argazkiak
 
@@ -29,10 +29,9 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://answer.dev/>
-- Erabiltzaileen dokumentazio ofiziala: <https://yunohost.org/apps>
-- Administratzaileen dokumentazio ofiziala: <https://answer.dev/docs>
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/answerdev/answer>
+- Aplikazioaren webgune ofiziala: <https://answer.apache.org/>
+- Administratzaileen dokumentazio ofiziala: <https://answer.apache.org/docs>
+- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/apache/answer>
 - YunoHost Denda: <https://apps.yunohost.org/app/answer>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

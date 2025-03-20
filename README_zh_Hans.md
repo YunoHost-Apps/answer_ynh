@@ -3,9 +3,11 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Answer
+# YunoHost 上的 Answer
 
-[![集成程度](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![工作状态](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![工作状态](https://apps.yunohost.org/badge/state/answer)
+![维护状态](https://apps.yunohost.org/badge/maintained/answer)
 
 [![使用 YunoHost 安装 Answer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
@@ -19,9 +21,7 @@
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**分发版本：** 1.0.2~ynh1
-
-**演示：** <https://demo.example.com>
+**分发版本：** 1.4.2~ynh1
 
 ## 截图
 
@@ -29,10 +29,9 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## 文档与资源
 
-- 官方应用网站： <https://answer.dev/>
-- 官方用户文档： <https://yunohost.org/apps>
-- 官方管理文档： <https://answer.dev/docs>
-- 上游应用代码库： <https://github.com/answerdev/answer>
+- 官方应用网站： <https://answer.apache.org/>
+- 官方管理文档： <https://answer.apache.org/docs>
+- 上游应用代码库： <https://github.com/apache/answer>
 - YunoHost 商店： <https://apps.yunohost.org/app/answer>
 - 报告 bug： <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

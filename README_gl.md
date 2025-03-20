@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Answer para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/answer.svg)](https://dash.yunohost.org/appci/app/answer) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/answer.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/answer.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/answer)](https://ci-apps.yunohost.org/ci/apps/answer/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/answer)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/answer)
 
 [![Instalar Answer con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=answer)
 
@@ -19,9 +21,7 @@ NON debe editarse manualmente.
 An open-source knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 
 
-**Versión proporcionada:** 1.0.2~ynh1
-
-**Demo:** <https://demo.example.com>
+**Versión proporcionada:** 1.4.2~ynh1
 
 ## Capturas de pantalla
 
@@ -29,10 +29,9 @@ An open-source knowledge-based community software. You can use it to quickly bui
 
 ## Documentación e recursos
 
-- Web oficial da app: <https://answer.dev/>
-- Documentación oficial para usuarias: <https://yunohost.org/apps>
-- Documentación oficial para admin: <https://answer.dev/docs>
-- Repositorio de orixe do código: <https://github.com/answerdev/answer>
+- Web oficial da app: <https://answer.apache.org/>
+- Documentación oficial para admin: <https://answer.apache.org/docs>
+- Repositorio de orixe do código: <https://github.com/apache/answer>
 - Tenda YunoHost: <https://apps.yunohost.org/app/answer>
 - Informar dun problema: <https://github.com/YunoHost-Apps/answer_ynh/issues>
 

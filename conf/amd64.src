@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/answerdev/answer/releases/download/v1.0.2/answer_1.0.2_linux_x86_64.tar.gz
-SOURCE_SUM=9afd067e77470b1e2d7e005f8ba9c64b3ff08d3597499c35e71e8616ea43d1b4
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=false
-SOURCE_FILENAME=

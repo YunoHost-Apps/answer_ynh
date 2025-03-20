@@ -1,20 +1,42 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
 server:
   http:
-    addr: 127.0.0.1:__PORT__ # Project access port number
+    addr: 127.0.0.1:__PORT__
 data:
   database:
-    driver: "mysql" # Default database driver is mysql
-    connection: __DB_USER__:__DB_PWD__@tcp(127.0.0.1:3306)/__DB_NAME__ # MySQL database connection address
+    driver: "sqlite3"
+    connection: "__DATA_DIR__/sqlite3/answer.db"
   cache:
-    file_path: "__DATADIR__/cache/cache.db" # Cache file storage path
+    file_path: "__DATA_DIR__/cache/cache.db"
 i18n:
-  bundle_dir: "__DATADIR__/i18n" # Internationalized file storage directory
+  bundle_dir: "__DATA_DIR__/i18n"
 swaggerui:
-  show: true # Whether to display the swaggerapi documentation, address /swagger/index.html
-  protocol: http # swagger protocol header
-  host: 127.0.0.1 # An accessible IP address or domain name
-  address: ':__PORT__'  # accessible port number
+  show: true
+  protocol: http
+  host: 127.0.0.1
+  address: ':__PORT__'
 service_config:
-  secret_key: "answer" # encryption key
-  upload_path: "__DATADIR__/uploads" # upload directory
-  
+  upload_path: "/data/uploads"
+  clean_up_uploads: true
+  clean_orphan_uploads_period_hours: 48
+  purge_deleted_files_period_days: 30
+ui:
+  public_url: '/'
+  api_url: '/'
+  base_url: ''
