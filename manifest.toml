@@ -7,7 +7,7 @@ name = "Answer"
 description.en = "Knowledge-based community software"
 description.fr = "Logiciel communautaire de partage de connaissances"
 
-version = "1.4.2~ynh1"
+version = "2.0.1~ynh1"
 
 maintainers = []
 
@@ -18,7 +18,7 @@ admindoc = "https://answer.apache.org/docs"
 code = "https://github.com/apache/answer"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -59,12 +59,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/apache/answer/releases/download/v1.4.2/apache-answer-1.4.2-bin-linux-amd64.tar.gz"
-    amd64.sha256 = "af8be8615a2483312ffd3b17f6e3dfb8cf37bdd5fc62d9e5bb8b98b4b417f686"
-    arm64.url = "https://github.com/apache/answer/releases/download/v1.4.2/apache-answer-1.4.2-bin-linux-arm64.tar.gz"
-    arm64.sha256 = "14e616e1f45a842c13463beb1de07b10ba788f1310ef7c4793ba3efeed5d1817"
+    amd64.url = "https://github.com/apache/answer/releases/download/v2.0.1/apache-answer-2.0.1-bin-linux-amd64.tar.gz"
+    amd64.sha256 = "71a6c1662b82c1369853506fe27ef78dcd4f0b5c98055ef400ef60fb99343ecb"
+    arm64.url = "https://github.com/apache/answer/releases/download/v2.0.1/apache-answer-2.0.1-bin-linux-arm64.tar.gz"
+    arm64.sha256 = "30e2d4cadb195e69b9596013ee00408d5ef0c43ec609523ac185fbdb0a462c78"
     
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
